@@ -2,8 +2,7 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px 
 # Load data
-data = pd.read_csv('C:/Users/victo/OneDrive/Documents/GitHub/Sprint4project/Notebook/vehicles_us.csv')
-
+data = pd.read_csv(r'C:\Users\victo\OneDrive\Documents\GitHub\Sprint4project\Notebook\vehicles_us.csv')
 # Header
 st.header("Exploratory Data Analysis")
 # Checkbox to toggle between histograms and scatter plots

@@ -3,8 +3,7 @@ import pandas as pd
 import plotly.express as px 
 
 # Load data
-url = "https://raw.githubusercontent.com/victor-iyiola/Sprint4project/main/vehicles_us.csv"
-data = pd.read_csv(url)
+data = pd.read_csv("vehicles_us.csv", encoding='utf-8')
 
 # Header
 st.header("Exploratory Data Analysis")
